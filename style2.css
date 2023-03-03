@@ -1,0 +1,160 @@
+/*media*/
+@media screen and (max-width:980px) {
+  ul.topnav li:not(:first-child) {display: none;background-color: darkorange;}
+  ul.topnav li.icon {
+  float: right;
+    display: inline-block;
+    background-color: darkorange;
+  }
+}
+
+@media screen and (max-width:980px) {
+  ul.topnav.responsive {position: relative;background-color: darkorange;}
+  ul.topnav.responsive li.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: darkorange;
+  }
+  ul.topnav.responsive li {
+    float: none;
+    display: inline;
+    background-color: darkorange;
+  }
+  ul.topnav{
+    background-color: darkorange;
+  }
+  ul.topnav.responsive li a {
+    display: block;
+    text-align: left;
+    background-color: darkorange;
+
+  }
+  .stepcarousel { position: relative;
+    border: 10px solid black;
+    overflow: scroll;
+    width: 270px; height: 200px; }
+.stepcarousel .belt { position: absolute;
+          left: 0; top: 0%ì; }
+.stepcarousel .panel { float: left;
+           overflow: hidden;
+           margin: 10px; /* Margine attorno ai pannelli */
+           width: 250px; /* Larghezza di ogni pannello,            */
+                         /* se rimosso ogni larghezza viene        */
+                         /* adattata automaticamente al contenuto. */
+                      
+         }
+         .dot {
+          height: 15px;
+          width: 15px;
+          margin: 0 2px;
+          background-color: #bbb;
+          border-radius: 50%;
+          display: inline-block;
+          transition: background-color 0.6s ease;
+          position:relative;
+         
+          top: 320px;
+        }
+        #top4{
+          position: absolute;
+          top: 0%;
+          width: 100%;
+        }
+        #top3{
+          position: absolute;
+          top: 0%;
+          width: 100%;
+        }
+        #top1{
+          position: absolute;
+          top: 0%;
+          width: 100%;
+        }
+        #topnav2{
+          position: absolute;
+          top: 0%;
+          width: 100%;
+        }
+}
+
+@media only screen and (max-width: 980px) {
+   /*body*/
+    body {
+      margin: 0%;
+      background-color: rgb(240, 149, 13);
+    }
+    
+
+    h2.titolo{
+      position: absolute;
+left: 0%;
+top:50%;
+    }
+      
+      /*golden-tabacco*/
+  div.gold-tabacco {
+    position:absolute;
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+    top:600px;
+    left: 25%;
+  }
+  div.gold-tabacco img {
+    width: 100%;
+    height: auto;
+  }
+      /*bomba-*/
+      div.bomba{
+        position:absolute;
+        margin: 5px;
+        border: 1px solid #ccc;
+        float: left;
+        width: 180px;
+        top:1400px;
+        left: 25%;
+      }
+      div.bomba img {
+        width: 100%;
+        height: auto;
+      }
+ 
+        /*bomba-reserve*/
+        div.bomba-reserve{
+          position:absolute;
+          margin: 5px;
+          border: 1px solid #ccc;
+          float: left;
+          width: 180px;
+          top:1800px;
+          left: 25%;
+        }
+        div.bomba-reserve img {
+          width: 100%;
+          height: auto;
+        }
+        
+        /*best-tuscan*/
+        div.best-tuscan{
+          position:absolute;
+          margin: 5px;
+          border: 1px solid #ccc;
+          float: left;
+          width: 180px;
+          top:1000px;
+          left: 25%;
+        }
+        div.best-tuscan img {
+          width: 100%;
+          height: auto;
+        }
+        .titolo{
+        position: relative;
+        top: 200px;
+        left: 99%;
+
+        }
+  }
+ 
